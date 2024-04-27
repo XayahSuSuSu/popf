@@ -1550,3 +1550,9 @@ set<PropertySpace *> TIMAnalyser::relevant(pddl_type * tp)
 
 };
 
+// https://github.com/KCL-Planning/SMTPlan/issues/8#issuecomment-1256699573
+namespace std {
+	template <typename TI> struct iterator_traits<TIM::getConditionally<TI>> {
+		typedef typename TI::value_type value_type;
+	};
+}

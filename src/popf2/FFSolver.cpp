@@ -17,6 +17,7 @@
 #include <limits>
 
 #include <sys/times.h>
+#include <sys/unistd.h>
 
 namespace Planner
 {

@@ -30,6 +30,7 @@
 #endif
 
 #include <sys/times.h>
+#include <sys/unistd.h>
 
 #include <sstream>
 

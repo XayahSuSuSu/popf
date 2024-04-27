@@ -14,6 +14,7 @@ using std::ostringstream;
 using std::endl;
 
 #include <sys/times.h>
+#include <sys/unistd.h>
 
 namespace Planner {
 
